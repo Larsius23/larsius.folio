@@ -260,3 +260,19 @@ kbd {
     align-self: flex-start;
     width: 100%;
 }
+
+#content::-webkit-scrollbar {
+  width: 4px;
+}
+
+#content::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+#content::-webkit-scrollbar-thumb {
+  background: var(--accent);
+}
+
+#content::-webkit-scrollbar-thumb:hover {
+  background: var(--fg);
+}
